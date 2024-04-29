@@ -163,7 +163,7 @@ positivessyph <- function(dataframe) {
       } else if (("RPR" %notin% positivesyph[["Result_Name"]])) {
         "NEGATIVE Syph"
       } else {
-        "ASM Fucked Up"
+        "ERROR"
       }
     } else {
       "No positives"
